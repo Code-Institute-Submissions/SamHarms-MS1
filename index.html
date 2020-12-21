@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Bootstrap file -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
    
@@ -14,28 +14,102 @@
 </head>
 <body>
     <!-- Navbar and title image-->
-    <section id="title">
-
-    </section>
+    <!-- Navbar template based on Bootstrap Components-->
+    <section id="navbar">
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+             <a class="navbar-brand" href="#">DLS Tax & Accounting</a>
+             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Services</a>
+                 </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="#">Important Dates</a>
+                 </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                 </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                 </li>
+              </ul>
+             </div>
+         </div>
+       </nav>
+       <!--
+        <div class="text-center logo-image">
+            <img src="assets/images/dls-logo.jpg" alt="DLS Logo">
+       </div> -->
+</section>
     <!-- Services -->
-    <section id="services">
-
-    </section>
-    <!-- Meet the team -->
-    <section id="team">
-
-    </section>
-    <!-- Contact and testimonials-->
-    <section id="contact">
-
-    </section>
-    <!-- Find Us-->
-    <section id="map">
-
-    </section>
-
-    
+    <section id="services" class="container-fluid">
+      <div class="row services-flip-cards">
+<div class="flip-card col-lg-3 col-md-6">
+  <div class="flip-card-inner ">
+    <div class="flip-card-front">
+      <h1> Tax </h1>
+    </div>
+    <div class="flip-card-back">
+      <ul>
+          <li>Personal tax</li>
+          <li>Corporation tax</li>
+          <li>VAT</li>
+          <li>Payroll services</li>
+          <li>Inheritance tax</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="flip-card col-lg-3 col-md-6">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1> Accounting </h1>
+    </div>
+    <div class="flip-card-back">
+       <ul>
+          <li>Financial statement preparation</li>
+          <li>Management accounts</li>
+          <li>Cashflow statements and analysis</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="flip-card col-lg-3 col-md-6">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1> Company Secterial </h1>
+    </div>
+    <div class="flip-card-back col-lg-3 col-md-6">
+      <ul>
+          <li>Company registrations</li>
+          <li>Annual company returns (B1)</li>
+          <li></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="flip-card col-lg-3 col-md-6">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1> Succession Planning </h1>
+    </div>
+    <div class="flip-card-back">
+      <ul>
+          <li>Advice on cash extraction from family companies</li>
+          <li>Restructuring of family businesses</li>
+          <li>Structuring of wills with a view to minimising inheritance tax</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</section>
    <!-- JavaScript file -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> 
 </body>
 </html>
+
