@@ -3,6 +3,22 @@
 
 /* Navbar */
 
+.navbar-brand {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Title Image */
+
+/*
+.title-image {
+    width: 100px;
+    height: 100px;
+} */
 
 
 /* Service flipcards*/
@@ -42,6 +58,7 @@
   color: #f9ecec;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
+  padding: 70px 0px 70px 0px;
 }
 
 .flip-card-back {
@@ -52,6 +69,7 @@
 }
 
 .flip-card-back ul li {
+    padding: 5px;
     list-style: none;
     text-align: center;
 }
@@ -70,17 +88,17 @@
 #team {
     font-family: "Raleway", sans-serif;
     margin: 0px;
-    padding: 30px;
+    padding: 25px;
     background-color: #eff5f5;  
 }
 
 .team-member {
     background-color: #f9ecec;
     margin: 5px;
-    width: 450px;
+    width: 100%;
 }
 
-img {
+.team-photo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -90,4 +108,48 @@ img {
 
 h5 {
     margin: 10px;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+}
+/* Footer */
+
+footer {
+    background-color: #f9ecec;
+    color: #1a0008;
+    min-height: 120px;
+    margin: 0;
+    padding: 20px;
+}
+
+.contact-details li {
+    font-family: "Raleway", sans-serif;
+    list-style: none;
+    color: #000000;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 17px;
+    line-height: 7px;
+    color: #f9ecec;
+    background: #990033;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background:  #4d0019;
+}
+
+.footer-details {
+    padding: 40px;
 }
