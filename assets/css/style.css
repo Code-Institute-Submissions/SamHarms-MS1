@@ -64,3 +64,30 @@
     background-color: #eff5f5;
     padding: 50px;
 }
+
+/* Meet our team */ 
+
+#team {
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+    padding: 30px;
+    background-color: #eff5f5;  
+}
+
+.team-member {
+    background-color: #f9ecec;
+    margin: 5px;
+    width: 450px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin-top: 7px;
+}
+
+h5 {
+    margin: 10px;
+}
