@@ -32,6 +32,7 @@
   perspective: 1000px; 
   display: block;
   margin-top: 5px;
+  text-align: center;
 }
 
 .flip-card-inner {
@@ -89,8 +90,7 @@
 .dates-header {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .important-dates {
@@ -132,8 +132,8 @@
 }
 
 .team-photo {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 190px;
     border-radius: 50%;
     filter: grayscale(100%);
     margin-top: 7px;
@@ -184,11 +184,10 @@ button[type="submit"] {
 .carousel-slide-testimonials {
     background-color: #f9ecec;
     padding-top: 40px;
-    padding-bottom: 40px;
-    height: 90px;
+    padding-bottom: 80px;
+    height: 120px;
     max-width: 100%;
-    margin-bottom: 10px;
-    
+    margin-bottom: 20px;  
 }
 
 .testimonials {
@@ -236,6 +235,15 @@ footer {
     color: #000000;
 }
 
+.social-links {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .social-links {
+        text-align: right;
+    }
+}
 .social-links li a i {
     width: 32px;
     height: 32px;

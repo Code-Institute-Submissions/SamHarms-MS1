@@ -1,185 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<head>
+    <!-- Meta tags taken from W3 school and mentor-->
+    <meta charset="UTF-8">
+    <meta name="description" content="DLS-tax-and-accounting">
+    <meta name="tax, accounting, finance, dublin" content="HTML, CSS, JavaScript">
+    <meta name="Samantha Harms" content="DLS Partners">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap file -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Fontawesome file -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>DLS Tax & Accounting</title>
 </head>
+
 <body>
     <a name="top"></a>
-   
     <!-- Navbar -->
     <!-- Navbar template based on Bootstrap Components-->
     <section id="navbar">
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">DLS Tax & Accounting</a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-       </button>      
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Services<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Important Dates</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
- </div>
-</nav>
-</section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">DLS Tax & Accounting</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#services">Services<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#important-dates">Important Dates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
 
-<!-- Title Image -->
+    <!-- Title Image -->
 
-<!-- <div class="container">
+    <!-- <div class="container">
      <div class="title-image">
          <div class="title-image-outer"></div>
-        
        </div> 
    </div>  -->
     <!-- Services -->
     <section id="services" class="container-fluid">
-      <div class="row services-flip-cards">
-<div class="flip-card col-lg-3 col-md-6">
-  <div class="flip-card-inner ">
-    <div class="flip-card-front">
-      <h1> Tax </h1>
-    </div>
-    <div class="flip-card-back">
-      <ul>
-          <li>Personal tax</li>
-          <li>Corporation tax</li>
-          <li>VAT</li>
-          <li>Payroll services</li>
-          <li>Inheritance tax</li>
-      </ul>
-    </div>
-  </div>
-</div>
-<div class="flip-card col-lg-3 col-md-6">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <h1> Accounting </h1>
-    </div>
-    <div class="flip-card-back">
-       <ul>
-          <li>Financial statement preparation</li>
-          <li>Management accounts</li>
-          <li>Cashflow statements and analysis</li>
-      </ul>
-    </div>
-  </div>
-</div>
-<div class="flip-card col-lg-3 col-md-6">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <h1> Company Secterial</h1>
-    </div>
-    <div class="flip-card-back">
-      <ul>
-          <li>Company registrations</li>
-          <li>Annual company returns (B1)</li>
-          <li></li>
-      </ul>
-    </div>
-  </div>
-</div>
-<div class="flip-card col-lg-3 col-md-6">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <h1> Succession Planning </h1>
-    </div>
-    <div class="flip-card-back">
-      <ul>
-          <li>Advice on cash extraction from family companies</li>
-          <li>Restructuring of family businesses</li>
-          <li>Structuring of wills with a view to minimising inheritance tax</li>
-      </ul>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- Important Dates-->
-<div class="container-fluid important-dates">
-    <div class="row">
-        <div class="col">
-         <h3 class="dates-header">Important Dates</h3>
-         <div id="carouselExampleControls" class="carousel-slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active text-center">
-       <h4> Income Tax and Capital Gains Tax</h4>
-      <ul>
-          <li>Income Tax Form 11 due date - 31st October 2020, or 10th December 2020 if filing online</li>
-          <li>Capital Gains Tax payment date - 15th December 2020 for gains made up to 30th November 2020, or 31st December
-              2021 for gains made up to 31st December 2020
-          </li>
-      </ul> 
-    </div>
-    <div class="carousel-item text-center">
-      <h4> Corporation Tax</h4>
-      <ul>
-          <li>CT1 return and payment due - 23rd of the 9th month after the end of the company accounting period</li>
-          <li>E.G. Year end 31st December 2019 will be due 23rd September 2020</li>
-      </ul>
-    </div>
-    <div class="carousel-item text-center">
-      <h4> VAT</h4>
-      <ul>
-          <li>Bi-Monthly filers - return and payment due 23rd of the month after the end of the period</li>
-          <li>Quarterly filers - return and payment due 23rd of the month after the end of the quarter</li>
-          <li>Annual filers - return and payment due 23rd Jnauary the following year</li>
-      </ul>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
-    </div>
-</div>
-<!-- Meet the team -->
+        <div class="row services-flip-cards">
+            <div class="flip-card col-lg-3 col-md-6">
+                <div class="flip-card-inner ">
+                    <div class="flip-card-front">
+                        <h1> Tax </h1>
+                    </div>
+                    <div class="flip-card-back">
+                        <ul>
+                            <li>Personal tax</li>
+                            <li>Corporation tax</li>
+                            <li>VAT</li>
+                            <li>Payroll services</li>
+                            <li>Inheritance tax</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card col-lg-3 col-md-6">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h1> Accounting </h1>
+                    </div>
+                    <div class="flip-card-back">
+                        <ul>
+                            <li>Financial statement preparation</li>
+                            <li>Management accounts</li>
+                            <li>Cashflow statements and analysis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card col-lg-3 col-md-6">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h1> Company Secterial</h1>
+                    </div>
+                    <div class="flip-card-back">
+                        <ul>
+                            <li>Company registrations</li>
+                            <li>Annual company returns (B1)</li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card col-lg-3 col-md-6">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h1> Succession Planning </h1>
+                    </div>
+                    <div class="flip-card-back">
+                        <ul>
+                            <li>Advice on cash extraction from family companies</li>
+                            <li>Restructuring of family businesses</li>
+                            <li>Structuring of wills with a view to minimising inheritance tax</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Important Dates-->
+    <section id="important-dates">
+        <div class="container-fluid important-dates">
+            <div class="row">
+                <div class="col">
+                    <h3 class="dates-header">Important Dates</h3>
+                    <div id="carouselExampleControls" class="carousel-slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active text-center">
+                                <h4> Income Tax and Capital Gains Tax</h4>
+                                <ul>
+                                    <li>Income Tax Form 11 due date - 31st October 2020, or 10th December 2020 if filing
+                                        online</li>
+                                    <li>Capital Gains Tax payment date - 15th December 2020 for gains made up to 30th
+                                        November 2020, or 31st December
+                                        2021 for gains made up to 31st December 2020
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <h4> Corporation Tax</h4>
+                                <ul>
+                                    <li>CT1 return and payment due - 23rd of the 9th month after the end of the company
+                                        accounting period</li>
+                                    <li>E.G. Year end 31st December 2019 will be due 23rd September 2020</li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <h4> VAT</h4>
+                                <ul>
+                                    <li>Bi-Monthly filers - return and payment due 23rd of the month after the end of
+                                        the period</li>
+                                    <li>Quarterly filers - return and payment due 23rd of the month after the end of the
+                                        quarter</li>
+                                    <li>Annual filers - return and payment due 23rd Jnauary the following year</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Meet the team -->
     <section id="team" class="container-fluid team">
         <h3 class="team-header">Meet Our Team</h3>
         <div class="row">
-            
+
             <div class="col-lg-3 col-md-6 team-member text-center">
-                <img class="team-photo" src="assets/images/dls-partners-dervilla-whelan.png" alt="DLS Dervilla Whelan Photo">
-                <h5>Dervilla Whelan</h5> 
+                <img class="team-photo" src="assets/images/dls-partners-dervilla-whelan.png"
+                    alt="DLS Dervilla Whelan Photo">
+                <h5>Dervilla Whelan</h5>
                 <h6>Managing Partner</h6>
-                <p>Dervilla Whelan is one the founding members of DLS Partners. She is a graduate of Trinity College, Dublin and the Institute of Taxation in Ireland.
-                   Her key skills include advising clients on all aspects of Personal Tax, Capital Gains Tax and Inheritance Tax Planning in addition to advising a growing portfolio of SME clients in all aspects of business advice.</p>
+                <p>Dervilla Whelan is one the founding members of DLS Partners. She is a graduate of Trinity College,
+                    Dublin and the Institute of Taxation in Ireland.
+                    Her key skills include advising clients on all aspects of Personal Tax, Capital Gains Tax and
+                    Inheritance Tax Planning in addition to advising a growing portfolio of SME clients in all aspects
+                    of business advice.</p>
             </div>
             <div class="col-lg-3 col-md-6 team-member text-center">
-                <img class="team-photo" src="assets/images/dls-partners-stephen-cahill.png" alt="DLS Stephen Cahill Photo">
+                <img class="team-photo" src="assets/images/dls-partners-stephen-cahill.png"
+                    alt="DLS Stephen Cahill Photo">
                 <h5>Stephen Cahill </h5>
                 <h6>Manager</h6>
-                <p>Stephen is involved in all areas of the practice. He provides advice in both the setting up and operation of SME companies, as well as the preparation of monthly management accounts.
-                    He has played a key role in the settlement of Revenue Audits for both sole traders and companies. Stephen has over 10 years’ experience advising clients on numerous areas of tax, including Income Tax, Inheritance and Gift Tax, and Corporation Tax.</p>
+                <p>Stephen is involved in all areas of the practice. He provides advice in both the setting up and
+                    operation of SME companies, as well as the preparation of monthly management accounts.
+                    He has played a key role in the settlement of Revenue Audits for both sole traders and companies.
+                    Stephen has over 10 years’ experience advising clients on numerous areas of tax, including Income
+                    Tax, Inheritance and Gift Tax, and Corporation Tax.</p>
             </div>
             <div class="col-lg-3 col-md-6 team-member text-center">
-                <img class="team-photo" src="assets/images/dls-partners-samantha-harms.jpeg" alt="DLS Samantha Harms Photo">
+                <img class="team-photo" src="assets/images/dls-partners-samantha-harms.jpeg"
+                    alt="DLS Samantha Harms Photo">
                 <h5>Samantha Harms</h5>
                 <h6>Tax Associate</h6>
-                <p>Samantha joined the practice in 2006 as a trainee. Since then she has gone on to become a fully qualified accountant and tax adviser. She was awarded first place in the Tax Institute's professional skills assignment. 
+                <p>Samantha joined the practice in 2006 as a trainee. Since then she has gone on to become a fully
+                    qualified accountant and tax adviser. She was awarded first place in the Tax Institute's
+                    professional skills assignment.
                     As a recent graduate Samantha has an up to date knowlege of all tax heads.
                 </p>
             </div>
@@ -187,74 +213,79 @@
                 <img class="team-photo" src="assets/images/dls-partners-jennifer-pim.jpg" alt="DLS Jennifer Pim Photo">
                 <h5> Jennifer Pim</h5>
                 <h6>Office Manager</h6>
-                <p> Jennifer is the glue that holds the practice together. She is the person to get in touch with with general queries or to arrange a meeting with one of our team.</p>
+                <p> Jennifer is the glue that holds the practice together. She is the person to get in touch with with
+                    general queries or to arrange a meeting with one of our team.</p>
             </div>
         </div>
 
     </section>
     <!-- Contact -->
     <!-- The template for this code was taken from Code Institute's Full Stack Developer Course's Mini Project Contact Form video -->
-    <section class="container-fluid">
+    <section id="contact" class="container-fluid">
         <div class="row bg-colour-contact">
             <div class="col-lg-6 ">
                 <h3 class="contact-header text-center">Interested in our services?</h3>
                 <h5 class="contact-sub-header text-center">Get in touch and we will get back to you asap!</h5>
-            <div class="center-form">
-                <form>
-                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
-                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email Address" required>
-                    <textarea rows="5" name="query" id="query" class="form-control" placeholder="Query" required></textarea>
-                <div class="form-row text-center">
-                    <div class="col">
-                        <button type="submit" class="btn btn-secondary">Send!</button>
-                    </div>
+                <div class="center-form">
+                    <form action="https://formdump.codeinstitute.net/" target="_blank">
+                        <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Fullname"
+                            required>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
+                        <textarea rows="5" name="query" id="query" class="form-control" placeholder="Query"
+                            required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send!</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </form>
-    </div>
-</div>
-<!--Testimonials-->
-<!-- the template for the carousel was taken from Bootstrap-->
-     <div class="col-lg-6">
-         <h3 class="testimonials text-center"> What Our Clients Say</h3>
-         <div id="carouselExampleControlsTestimonial" class="carousel-slide-testimonials" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active text-center">
-       <p> Excellent, efficient service. I know my accounts are in safe hands with DLS. </p>
-     <h6 > - S. Holm</h6>
-    </div>
-    <div class="carousel-item text-center">
-      <p>  Knowledgeable staff who are always a pleasure to deal with.</p>
-     <h6 > - C. Griffin</h6>
-    </div>
-    <div class="carousel-item text-center">
-      <p> The advisers at DLS are great to work with. No issue is too big or small.</p>
-     <h6 > - J. Meagher</h6>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-  
-     </div>
-  </div>
-</section>
+            </div>
+            <!--Testimonials-->
+            <!-- the template for the carousel was taken from Bootstrap-->
+            <div class="col-lg-6">
+                <h3 class="testimonials text-center"> What Our Clients Say</h3>
+                <div id="carouselExampleControlsTestimonial" class="carousel-slide-testimonials" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center">
+                            <p> Excellent, efficient service. I know my accounts are in safe hands with DLS. </p>
+                            <h6> - S. Holm</h6>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <p> Knowledgeable staff who are always a pleasure to deal with.</p>
+                            <h6> - C. Griffin</h6>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <p> The advisers at DLS are great to work with. No issue is too big or small.</p>
+                            <h6> - J. Meagher</h6>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <!-- Find Us-->
     <section>
-       <div class="container-fluid map">
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.1712186906825!2d-6.249741484023573!3d53.34019118287307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e96b708af75%3A0x82dfb0c05a0ad027!2s25%20Merrion%20Square%20N%2C%20Dublin%202%2C%20D02%20E392!5e0!3m2!1sen!2sie!4v1608584649800!5m2!1sen!2sie"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
-       </div>
+        <div class="container-fluid map">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.1712186906825!2d-6.249741484023573!3d53.34019118287307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e96b708af75%3A0x82dfb0c05a0ad027!2s25%20Merrion%20Square%20N%2C%20Dublin%202%2C%20D02%20E392!5e0!3m2!1sen!2sie!4v1608584649800!5m2!1sen!2sie"
+                allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
     </section>
     <!-- Footer-->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-                <div class="col-sm-6 contact-details">
+            <div class="col-sm-6 contact-details">
                 <ul>
                     <li><strong>Get in touch!</strong></li>
                     <li class="list-inline-item"><i class="fa fa-phone"></i> (01)6619084</li>
@@ -262,28 +293,28 @@
                     <li class="list-inline-item"><i class="fa fa-map-pin"></i> 25 Merrion Square, Dublin 2</li>
                 </ul>
             </div>
-             <div class="col-sm-6 social-links">
+            <div class="col-sm-6 social-links">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/">
+                        <a target="_blank" href="https://www.facebook.com/" rel="noopener">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.twitter.com/">
+                        <a target="_blank" href="https://www.twitter.com/" rel="noopener">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.linkedin.com/">
+                        <a target="_blank" href="https://www.linkedin.com/" rel="noopener">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
                     </li>
                 </ul>
-                </div>
+            </div>
         </div>
     </footer>
     <div class="container-fluid">
@@ -293,10 +324,13 @@
             </div>
         </div>
     </div>
-    
-   <!-- JavaScript file -->
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
-  
