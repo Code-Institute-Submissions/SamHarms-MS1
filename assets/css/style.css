@@ -94,8 +94,10 @@
 
 .team-member {
     background-color: #f9ecec;
-    margin: 5px;
+    margin: 0px;
     width: 100%;
+    background-clip: padding-box;
+    border: 10px solid transparent;
 }
 
 .team-photo {
