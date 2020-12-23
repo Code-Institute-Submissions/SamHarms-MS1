@@ -14,11 +14,13 @@
 
 /* Title Image */
 
-/*
-.title-image {
-    width: 100px;
-    height: 100px;
-} */
+
+/*.title-image {
+   background: url("images/tax-image.png");
+   background-color: #f9ecec;
+   width: 100%;
+   overflow: hidden;
+}  */
 
 
 /* Service flipcards*/
@@ -116,8 +118,41 @@ h5 {
     width: 100%;
     height: 400px;
 }
-/* Footer */
 
+/* Contact form*/
+/* The template for this code was taken from Code Institute's Full Stack Developer Course's Mini Project Contact Form video */
+.bg-colour-contact {
+    background-color: #f9ecec;
+}
+
+.contact-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.contact-sub-header {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #f9ecec;
+    background-color: #990033;
+}
+
+
+/* Footer*/
 footer {
     background-color: #f9ecec;
     color: #1a0008;
