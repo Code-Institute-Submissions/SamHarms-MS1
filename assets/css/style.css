@@ -85,7 +85,36 @@
     padding: 50px;
 }
 
+/* Important Dates*/
+.dates-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.important-dates {
+    background-color: #eff5f5;
+}
+.carousel-slide {
+    background-color: #f9ecec;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 5px;  
+}
+
+.carousel-item li {
+     list-style: none;  
+}
+
 /* Meet our team */ 
+.team-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
 
 #team {
     font-family: "Raleway", sans-serif;
@@ -151,6 +180,46 @@ button[type="submit"] {
     background-color: #990033;
 }
 
+/* Testimonials carousel*/
+.carousel-slide-testimonials {
+    background-color: #f9ecec;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 90px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.testimonials {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* Template for modifiying carousel controls was taken from Stack Overflow*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 25px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 25px;
+  color: black;
+}
 
 /* Footer*/
 footer {
@@ -189,4 +258,11 @@ footer {
 
 .footer-details {
     padding: 40px;
+}
+
+/* Back to top link*/
+.back-to-top {
+    background-color: #f9ecec;
+    text-transform: uppercase;
+    text-decoration: none;
 }
