@@ -115,7 +115,7 @@ html {
 .dates-header {
     font-family: "Roboto", sans-serif;
     color: #fff;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center; 
     padding-top: 5px;
     text-transform: uppercase;
@@ -137,7 +137,7 @@ html {
 /* Meet our team */ 
 .team-header {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
     text-transform: uppercase;
     color: #000;
@@ -179,8 +179,6 @@ h5 {
 
 /* Contact form*/
 /* The template for this code was taken from Code Institute's Full Stack Developer Course's Mini Project Contact Form video */
-
-
 .contact-header {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -208,21 +206,42 @@ button[type="submit"] {
 }
 
 /* Testimonials carousel*/
-.carousel-slide-testimonials {
-    background-color: #697D84;
-    color: #fff;
-    padding-top: 40px;
-    padding-bottom: 80px;
-    height: 120px;
-    max-width: 100%;
-    margin-bottom: 20px;  
-}
 
 .testimonials {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 15px;
+}
+
+.client-testimonial {
+  background-color: #B3C1C3;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.client-testimonial::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.client-testimonial img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .client-testimonial {
+    text-align: center;
+  }
+
+  .client-testimonial img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
 }
 
 /* Template for modifiying carousel controls was taken from Stack Overflow*/
