@@ -7,16 +7,18 @@ html, body {
 
 html {
   scroll-behavior: smooth;
+  background-color: #eff5f5;
 }
 /* Navbar */
 
 .navbar-brand {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
 
 .nav-item {
     font-family: "Roboto", sans-serif;
+    color: black;
 }
 
 .navbar-toggler-icon {
@@ -76,6 +78,7 @@ html {
   height: 100%;
   -webkit-backface-visibility: hidden; 
   backface-visibility: hidden;
+   border-radius: 25px;
 }
 
 .flip-card-front {
@@ -121,7 +124,7 @@ html {
 .important-dates {
     background-color: #697D84;
 }
-.carousel-slide {
+#dates-carousel {
     background-color: #697D84;
     color: #fff;
     padding-top: 10px;
@@ -129,10 +132,6 @@ html {
     max-height: 100%;
     max-width: 100%;
     margin-bottom: 5px;  
-}
-
-.carousel-item li {
-     list-style: none;  
 }
 
 /* Meet our team */ 
@@ -149,8 +148,7 @@ html {
     font-family: "Roboto", sans-serif;
     margin: 0px;
     padding: 25px;
-    background-color: #eff5f5;
-  
+    background-color: #eff5f5;  
 }
 
 .team-member {
@@ -159,6 +157,7 @@ html {
     width: 100%;
     background-clip: padding-box;
     border: 10px solid transparent;
+    border-radius: 25px;
 }
 
 .team-photo {
@@ -180,9 +179,7 @@ h5 {
 
 /* Contact form*/
 /* The template for this code was taken from Code Institute's Full Stack Developer Course's Mini Project Contact Form video */
-.bg-colour-contact {
-    background-color: #B3C1C3;
-}
+
 
 .contact-header {
     font-family: "Roboto", sans-serif;
@@ -253,7 +250,6 @@ button[type="submit"] {
 
 /* Footer*/
 footer {
-    background-color: #B3C1C3;
     color: #fff;
     min-height: 120px;
     margin: 0;
@@ -301,7 +297,6 @@ footer {
 
 /* Back to top link*/
 .back-to-top {
-    background-color: #B3C1C3;
     text-transform: uppercase;
 }
 
@@ -311,7 +306,6 @@ footer {
     text-decoration: none;
 }
 .back-up:hover {
-    color: #fff;
-    text-decoration: none;
-    
+    color: #93A2A6;
+    text-decoration: none;   
 }
