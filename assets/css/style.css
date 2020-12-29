@@ -28,7 +28,7 @@ html {
 /* Title Image */
 /* The following code is based on a W3 tutorial - link in README */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/hero-image-tax.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-image-tax.jpg);
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
