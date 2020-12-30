@@ -87,6 +87,7 @@ html {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   padding: 70px 0px 70px 0px;
+  overflow: hidden;
 }
 
 .flip-card-back {
@@ -205,7 +206,7 @@ button[type="submit"] {
     background-color: #1A2E38;
 }
 
-/* Testimonials carousel*/
+/* Testimonials section*/
 
 .testimonials {
     font-family: "Roboto", sans-serif;
@@ -232,9 +233,10 @@ button[type="submit"] {
   margin-right: 20px;
   border-radius: 50%;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .client-testimonial {
     text-align: center;
+    max-width: 100%;
   }
 
   .client-testimonial img {
@@ -288,12 +290,13 @@ footer {
 @media only screen and (min-width: 768px) {
     .social-links {
         text-align: right;
+        padding-right: 15px;
     }
 }
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 12px 0;
+    padding: 12px 0px;
     border-radius: 50%;
     font-size: 17px;
     line-height: 7px;
