@@ -83,7 +83,7 @@ The purpose of the project was to create a static website. The website was also 
 ## Frameworks, Libraries & Programs Used
 
 - [Bootsrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-  - Bootsrap was used to assist with the styling and layout of the website.
+  - Bootstrap was used to assist with the styling and layout of the website.
 
 - [Google Fonts](https://fonts.google.com/)
   - The Roboto and Montserrat fonts used throughtout the website were imported from Google Fonts.
@@ -108,7 +108,7 @@ The purpose of the project was to create a static website. The website was also 
     The Lighthouse feature was used to identify any problems affecting the site’s performance, accessibility, and user experience. 
 
 - [Am I Responsive?](http://ami.responsivedesign.is/)
- - Am I Responsive? was used to create the mock up image in this README.
+  - Am I Responsive? was used to create the mock up image in this README.
 
 - [BeFunky](https://www.befunky.com/)
   - BeFunky was used to resize the team ember photos.
@@ -204,7 +204,12 @@ In addition, friends and family members were asked to review the site and docume
 	 1. The navbar contains a link to the services section which contains the service cards. Here users will be able to 
       see if any services are offered in addition to those they already avail of.
 
-### Issues & Known Bugs 
+### Issues 
+
+- When the site was pushed to GitHub the hero image was not showing. I researched why this was happening and [this StackOverflow post](https://stackoverflow.com/questions/47135470/background-image-not-showing-on-gh-pages)
+helped solve the issue. The file path in my style.css file needed to be updated from "/assets/images/hero-image-tax.jpg" to "../images/hero-image-tax.jpg".
+
+### Known Bugs
 
 ## Deployment 
 
@@ -237,5 +242,44 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 5.	Change the current working directory to the location where you want the cloned directory to be made.
 6.	Type git clone, and then paste the URL you copied in Step 3.
 7.	Press Enter. Your local clone will be created.
+
+## Credits
+
+### Code
+
+- [Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap was used throughtout the project mainly for the grid system,
+navbar and carousel.
+
+- [W3Schools](https://www.w3schools.com/): [This](https://www.w3schools.com/howto/howto_css_hero_image.asp) how to from W3 School was used to create the hero image.
+ [This](https://www.w3schools.com/howto/howto_css_testimonials.asp) tutorial was used to create the testimonials section. [This](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1) one showed how to add smooth scrolling.
+And [this](https://www.w3schools.com/howto/howto_css_flip_card.asp) tutorial was used to create the flip cards.
+
+- [Google Maps Help](): [This](https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en) Google Maps Help explained how to 
+embed the map into the html code.
+
+- [Code Institute Full Stack Developer Course](https://codeinstitute.net/): The template for the code below came from tutorials which are part of 
+the Code Institute Full Stack Developer course. 
+
+  - Social links in footer
+  - Contact form 
+
+### Content
+
+All content was written by myself apart from the blurb for team members Dervilla Whelan
+ and Stephen Cahill which were taken from the original website [here](http://www.dlspartners.ie/).
+
+### Media
+
+ - Hero images and images in testimonials are stock images downloaded from [Canva](https://www.canva.com/)
+
+ - Team member images were provided by employees of DLS Tax and Accounting.
+
+### Acknowledgements
+
+ - My mentor for his helpful feedback and tips.
+ 
+ - Student care and fellow students at Code Institute for their support.
+
+
 
  
