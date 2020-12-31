@@ -174,7 +174,26 @@ ul {
     max-width: 100%;
     margin-bottom: 5px;  
 }
+/* Template for modifiying carousel controls was taken from Stack Overflow*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
 
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 25px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 25px;
+}
 /* Meet our team */ 
 .team-header {
     font-family: "Roboto", sans-serif;
@@ -288,29 +307,6 @@ button[type="submit"] {
     float: none;
     display: block;
   }
-}
-
-/* Template for modifiying carousel controls was taken from Stack Overflow*/
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 40px;
-  width: 40px;
-  outline: black;
-  background-size: 100%, 100%;
-  background-image: none;
-}
-
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 25px;
-  color: black;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 25px;
-  color: black;
 }
 
 /* Footer*/

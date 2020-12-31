@@ -5,7 +5,7 @@
 This website was created to demonstrate my front-end skills for Milestone Project 1 of Code Institute’s Full Stack Developer course. 
 The purpose of the project was to create a static website. The website was also built as a template for a new website for my employer, DLS Tax and Accounting, which is more modern and streamlined than their current website to attract a new younger client base.
 
-![alt](https://link)
+![website mockup image](assets/images/readme-images/multi-device-website-mockup.png)
 
 ## User Experience (UX)
 
@@ -107,8 +107,8 @@ The purpose of the project was to create a static website. The website was also 
   - Chromes inbuilt developer tools were used to inspect elements of the page. 
     The Lighthouse feature was used to identify any problems affecting the site’s performance, accessibility, and user experience. 
 
-- [Am I Responsive?](http://ami.responsivedesign.is/)
-  - Am I Responsive? was used to create the mock up image in this README.
+- [Techsini](http://techsini.com/multi-mockup/index.php)
+  - Techsini was used to create the mock up image in this README.
 
 - [BeFunky](https://www.befunky.com/)
   - BeFunky was used to resize the team ember photos.
@@ -153,7 +153,12 @@ In addition, friends and family members were asked to review the site and docume
 
      2. The navbar also contains the company name which includes the services they offer.
 
+     ![navbar and services](assets/images/readme-images/navbar-expand.PNG)
+
      3. The services section contains cards with the main service on the front and a breakdown of the subservices offered on the reverse.
+
+     ![services](assets/images/readme-images/service-flipcards-front.png)
+     ![services back](assets/images/readme-images/service-flipcards-back.jpg)
 
   2. As a First Time Visitor, I want to be able to navigate the site easily with the minimum number of clicks to get to the desired information.
 
