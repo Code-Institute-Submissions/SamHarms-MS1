@@ -45,9 +45,11 @@ The purpose of the project was to create a static website. The website was also 
 
 - ### Wireframes
 
-   - Mobile Wireframe [here](link)
+   - Mobile Wireframe [Here](https://github.com/SamHarms/MS1/blob/master/assets/images/readme-images/mobile-wireframe.png) 
 
-   - Desktop Wireframe [here](link)
+   - Tablet Wireframe [Here](https://github.com/SamHarms/MS1/blob/master/assets/images/readme-images/tablet-wireframe-ms1.png) 
+
+   - Desktop Wireframe [Here](https://github.com/SamHarms/MS1/blob/master/assets/images/readme-images/desktop-wireframe.png)
 
 ## Features
 
