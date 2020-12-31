@@ -118,10 +118,50 @@ The purpose of the project was to create a static website. The website was also 
 
 ## Testing
 
+### Development Testing
+
+ - Throughout development of the website I used the Google Chrome Developer tools to inspect the site at different device sizes and in responsive mode.
+
+ - I also used Codeply to test out code before adding it to the Gitpod terminal.
+
+### Manual Testing
+
+ - In order to test that the navbar was working correctly I tested the following criteria.
+
+   - Does each link on the navbar scroll to the corresponding section of the website? Yes
+   - Does clicking the company name return users to the top of the page as expected? Yes
+
+ - In order to test that the form was working correctly I tested the following criteria.
+
+   - Does the completed form link to the correct place when submitted? Yes
+
+   ![submitted form](assets/images/readme-images/submitted-form.PNG)
+
+   - Is the user prompted to complete all fields if input is missing? Yes
+
+   ![incomplete form](assets/images/readme-images/contact-form-required.PNG)
+
+-  In order to test that the map was working correctly I tested the following criteria.
+
+   - When the "directions" and "view larger map" links are clicked is the user brought to Google Mpas in a seperate Tab? Yes
+
+- In order to test that the social links were working correctly I tested the following criteria.
+
+  - Do social links change colour on hover? Yes
+
+  - When clicked do social sites open in a new tab? Yes
+
+
+### Final testing
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+- [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsamharms.github.io%2FMS1%2F)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results below (please note that with direct input there were no errors in the CSS, but by url there were
+errors relating to Bootstrap)
+
+![css validation](assets/images/readme-images/css-validation.PNG)
+
 
 I have also thoroughly tested this website on the following devices and browsers to ensure that all links are working correctly. 
 In addition, friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
@@ -142,6 +182,15 @@ In addition, friends and family members were asked to review the site and docume
   - Microsoft Edge
   - Opera
   - Safari
+
+I also used PowerMapper to double-check browser compatibility. As seen in the report below there were no issues with the latest version of each broswer apart from IE 11, however,
+as IE is being replacted by Microsoft Edge this is not surprising. 
+
+![browser compatibility](assets/images/readme-images/browser-compatibility.PNG)
+
+The Lighthouse function on Google Chrome Developer Tools was used to check the performance, accessibility, SEO and best practices. The report can be seen below.
+
+![lighthouse report](assets/images/readme-images/lighthouse-report.PNG)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -168,13 +217,19 @@ In addition, friends and family members were asked to review the site and docume
 
 	  3. The back to top button eliminates the need for users to scroll all the way back to the top of the page.
 
+      ![back to top button](assets/images/readme-images/back-to-top.PNG)
+
   3. As a First Time Visitor, I want to see who the practice has working for them.
 
 	  1. The team/about us section includes information on each staff member as well as a photo to make it more personable.
 
+      ![team members](assets/images/readme-images/team-member.PNG)
+
   4. As a First Time Visitor, I want to look for testimonials to see what the reputation of the practice is like and if they are good to work with.
 
       1. The testimonials carousel includes reviews from current and previous clients
+
+      ![testimonials](assets/images/readme-images/testimonials.PNG)
 
 - #### Returning Visitor Goals
 
@@ -184,14 +239,20 @@ In addition, friends and family members were asked to review the site and docume
 
 	 2. The contact section provides a form which users can complete to get in touch.
 
+     ![contact form](assets/images/readme-images/contact-form.PNG)
+
 	 3. There is a google maps link embedded in the page showing the location of the practice offices which users can click to get
      directions which they may need for meetings.
 
 	 4. The footer section contains the address, email and phone number.
 
+      ![map](assets/images/readme-images/map-and-contact-details.PNG)
+
   2. As a Returning Visitor, I want to be able to find social links.
 
 	 1. Links to social platforms that the practice uses are included in the footer section.
+
+      ![social links](assets/images/readme-images/social-links.PNG)
 
 	 2. All links open in a separate tab to ensure the user can easily get back to the website.
 
@@ -204,6 +265,8 @@ In addition, friends and family members were asked to review the site and docume
 	 2. The important dates section contains a carousel with the tax type as a heading and dates below. 
      The carousel will cycle through the various headings.
 
+     ![important dates](assets/images/readme-images/dates-carousel.PNG)
+
   2. As a Frequent User, I want to see if the practice offers additional services I may need.
 
 	 1. The navbar contains a link to the services section which contains the service cards. Here users will be able to 
@@ -214,7 +277,22 @@ In addition, friends and family members were asked to review the site and docume
 - When the site was pushed to GitHub the hero image was not showing. I researched why this was happening and [this StackOverflow post](https://stackoverflow.com/questions/47135470/background-image-not-showing-on-gh-pages)
 helped solve the issue. The file path in my style.css file needed to be updated from "/assets/images/hero-image-tax.jpg" to "../images/hero-image-tax.jpg".
 
+- I had started the project using Bootstrap 5 but switched to Bootstrap 4.5 shortly after starting. When I switched one of the four team members was being pushed to the next line
+at desktop size, eventhough I had my columns set to col-lg-3. The issue was fixed by adding "background-clip: padding-box;" and 
+    "border: 10px solid transparent;" as advised in [this](https://stackoverflow.com/questions/19010845/how-do-i-add-a-margin-between-bootstrap-columns-without-wrapping) StackOverflow post.
+
+- The text in the services flipcards was not centering. This was fixed by adding the following code as suggested by my mentor:
+
+   .center {
+   position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 ### Known Bugs
+
+- On small mobile screens the navbar toggler is pushed down onto a seperate line below the navbar.
 
 ## Deployment 
 
