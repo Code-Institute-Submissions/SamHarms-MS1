@@ -117,10 +117,23 @@ ul {
   }
 }
 
+@media (max-width: 991px) {
+  ul {
+    font-size: 1.8vw;
+  }
+}
+
 .center{
    position:absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.center-ul {
+   position:absolute;
+    top: 50%;
+    left: 45%;
     transform: translate(-50%,-50%);
 }
 
@@ -238,7 +251,6 @@ button[type="submit"] {
 }
 
 /* Testimonials section*/
-
 .testimonials {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -272,6 +284,7 @@ button[type="submit"] {
 
   .client-testimonial img {
     margin: auto;
+    margin-bottom: 7px;
     float: none;
     display: block;
   }
